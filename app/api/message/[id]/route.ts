@@ -4,7 +4,7 @@ import prisma from '@/app/libs/prismadb';
 import { NextApiRequest } from 'next';
 import { NextRequest, NextResponse } from "next/server";
 
-export async function POST(request: NextApiRequest, { params }: { params: { chatId: string } }) {
+export async function POST(request: NextRequest, { params }: { params: { chatId: string } }) {
 
   try {
     if (request.method === "POST") {
