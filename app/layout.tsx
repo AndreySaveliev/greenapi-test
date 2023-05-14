@@ -1,4 +1,3 @@
-'use client'
 import { SessionProvider } from 'next-auth/react';
 import AuthContext from './context/AuthContext';
 import './globals.css';
