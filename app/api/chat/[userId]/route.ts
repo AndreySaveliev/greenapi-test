@@ -4,7 +4,7 @@ import { NextApiRequest } from 'next';
 import { NextRequest, NextResponse } from "next/server";
 
 
-export async function GET(request: NextApiRequest, { params }: { params: { userId: string } }) {
+export async function GET(request: NextRequest, { params }: { params: { userId: string } }) {
 
   try {
     if (request.method === "GET") {
