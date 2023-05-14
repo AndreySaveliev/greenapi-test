@@ -1,9 +1,8 @@
 
 import prisma from '@/app/libs/prismadb';
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
-export default async function POST(request: Request) {
-
+export default async function POST(request: NextRequest) {
   try {
     if (request.method === "POST") {
       const body = await request.json()

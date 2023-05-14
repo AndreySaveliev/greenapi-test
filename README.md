@@ -4,9 +4,9 @@
 Клонируем репозиторий к себе на на компьютер.
 Для начала надо сконфигурировать .env файл
 ```code 
-DATABASE_URL=<db url>
-NEXTAUTH_JWT_SECRET=<secret>
-NEXTAUTH_SECRET=<secret>
+DATABASE_URL=mongodb+srv://andrey:andrey@cluster0.cjvgj1p.mongodb.net/greenapi
+NEXTAUTH_JWT_SECRET=NEXT-JWT-SECRET
+NEXTAUTH_SECRET=NEXT-SECRET
 ```
 
 Устанавливаем зависимости
